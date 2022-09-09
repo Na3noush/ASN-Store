@@ -24,18 +24,6 @@ class LoginActivity : com.example.myshop.ui.activites.BaseActivity(), View.OnCli
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        val email = getSharedPreferences(
-            Constants.MYSHOPPAL_PREFERENCES, Context.MODE_PRIVATE)
-            .getString(Constants.LOGGED_IN_EMAIL, "")
-        
-        txtEmail.setText(email)
-        
-        
-        val pass = getSharedPreferences(
-            Constants.MYSHOPPAL_PREFERENCES, Context.MODE_PRIVATE)
-            .getString(Constants.LOGGED_IN_PASS, "")
-        
-        txtPassword.setText(pass)
 
 
         setUpNavigationAndStatusBar()
@@ -43,6 +31,8 @@ class LoginActivity : com.example.myshop.ui.activites.BaseActivity(), View.OnCli
         tv_forget_password.setOnClickListener(this)
         txtNewUserRegNow.setOnClickListener(this)
     }
+
+
 
     override fun onClick(view: View?) {
         if (view !=null)

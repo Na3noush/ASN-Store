@@ -79,11 +79,17 @@ class FirestoreClass {
                         activity.userLoginInSuccess(user)
                     }
 
+                    is SplashActivity ->
+                    {
+                        activity.loginFromSplashSuccess(user)
+                    }
+
                     is SettingActivity -> {
                         activity.userDetailsSuccess(user)
                     }
                 }
             }
+
             .addOnFailureListener{ e ->
                 when(activity)
                 {
