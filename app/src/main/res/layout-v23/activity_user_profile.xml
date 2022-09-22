@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activites.UserProfileActivity">
+    tools:context="com.anx.myshop.ui.activites.UserProfileActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar_user_profile_activity"
@@ -82,7 +82,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/fl_user_image">
 
-                <com.example.myshop.utils.MSPEditText
+                <com.anx.myshop.utils.MSPEditText
                     android:id="@+id/et_first_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -106,7 +106,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/til_first_name">
 
-                <com.example.myshop.utils.MSPEditText
+                <com.anx.myshop.utils.MSPEditText
                     android:id="@+id/et_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -130,7 +130,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/til_email">
 
-                <com.example.myshop.utils.MSPEditText
+                <com.anx.myshop.utils.MSPEditText
                     android:id="@+id/et_mobile_number"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -153,7 +153,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/til_mobile_number">
 
-                <com.example.myshop.utils.MSPRadioButton
+                <com.anx.myshop.utils.MSPRadioButton
                     android:id="@+id/rb_male"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -167,7 +167,7 @@
                     android:textColor="@drawable/drawable_gender_tab_text_color_selector"
                     android:textStyle="bold" />
 
-                <com.example.myshop.utils.MSPRadioButton
+                <com.anx.myshop.utils.MSPRadioButton
                     android:id="@+id/rb_female"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -181,7 +181,7 @@
                     android:textStyle="bold" />
             </RadioGroup>
 
-            <com.example.myshop.utils.MSPButton
+            <com.anx.myshop.utils.MSPButton
                 android:id="@+id/btn_submit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

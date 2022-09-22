@@ -17,7 +17,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <com.example.myshop.utils.MSPTextViewBold
+    <com.anx.myshop.utils.MSPTextViewBold
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_progress_text"
@@ -29,7 +29,7 @@
         app:layout_constraintStart_toEndOf="@+id/progressBar"
         app:layout_constraintTop_toTopOf="parent">
 
-    </com.example.myshop.utils.MSPTextViewBold>
+    </com.anx.myshop.utils.MSPTextViewBold>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

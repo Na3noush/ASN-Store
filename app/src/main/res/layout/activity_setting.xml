@@ -8,7 +8,7 @@
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
-    tools:context=".ui.activites.SettingActivity">
+    tools:context="com.anx.myshop.ui.activites.SettingActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -71,7 +71,7 @@
                 android:background="@drawable/user_image_background" />
         </FrameLayout>
 
-        <com.example.myshop.utils.MSPTextView
+        <com.anx.myshop.utils.MSPTextView
             android:id="@+id/tv_edit"
             android:layout_width="56dp"
             android:layout_height="27dp"
@@ -92,7 +92,7 @@
             android:textColor="@color/colorDarkGrey"
             android:textSize="@dimen/settings_edit_label_textSize" />
 
-        <com.example.myshop.utils.MSPTextViewBold
+        <com.anx.myshop.utils.MSPTextViewBold
             android:id="@+id/tv_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -103,7 +103,7 @@
             android:textSize="@dimen/settings_name_textSize"
             tools:text="Denis Panjuta" />
 
-        <com.example.myshop.utils.MSPTextView
+        <com.anx.myshop.utils.MSPTextView
             android:id="@+id/tv_gender"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -114,7 +114,7 @@
             android:textSize="@dimen/settings_info_textSize"
             tools:text="Male" />
 
-        <com.example.myshop.utils.MSPTextView
+        <com.anx.myshop.utils.MSPTextView
             android:id="@+id/tv_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -125,7 +125,7 @@
             android:textSize="@dimen/settings_info_textSize"
             tools:text="denis.panjuta@gmail.com" />
 
-        <com.example.myshop.utils.MSPTextView
+        <com.anx.myshop.utils.MSPTextView
             android:id="@+id/tv_mobile_number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -150,7 +150,7 @@
             android:orientation="horizontal"
             android:padding="@dimen/settings_address_padding">
 
-            <com.example.myshop.utils.MSPTextView
+            <com.anx.myshop.utils.MSPTextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/settings_lbl_addresses_margin"
@@ -167,7 +167,7 @@
 
         </LinearLayout>
 
-        <com.example.myshop.utils.MSPButton
+        <com.anx.myshop.utils.MSPButton
             android:id="@+id/btn_logout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

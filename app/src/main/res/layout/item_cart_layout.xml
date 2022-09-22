@@ -37,7 +37,7 @@
         android:layout_weight="1"
         android:orientation="vertical">
 
-        <com.example.myshop.utils.MSPTextView
+        <com.anx.myshop.utils.MSPTextView
             android:id="@+id/tv_cart_item_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <com.example.myshop.utils.MSPTextViewBold
+            <com.anx.myshop.utils.MSPTextViewBold
                 android:id="@+id/tv_cart_item_price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -82,7 +82,7 @@
                     android:padding="@dimen/ib_cart_item_padding"
                     android:src="@drawable/ic_vector_remove" />
 
-                <com.example.myshop.utils.MSPTextView
+                <com.anx.myshop.utils.MSPTextView
                     android:id="@+id/tv_cart_quantity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

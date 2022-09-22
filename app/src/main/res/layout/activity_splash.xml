@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/register_bk_color"
-    tools:context=".ui.activites.SplashActivity">
+    tools:context="com.anx.myshop.ui.activites.SplashActivity">
 
 
-    <com.example.myshop.utils.MSPTextViewBold
+    <com.anx.myshop.utils.MSPTextViewBold
         android:id="@+id/tv_app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My Shop"
+        android:text="A S N"
         android:textColor="@color/white"
         android:textSize="@dimen/splash_title_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,5 +22,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.435">
 
-    </com.example.myshop.utils.MSPTextViewBold>
+    </com.anx.myshop.utils.MSPTextViewBold>
 </androidx.constraintlayout.widget.ConstraintLayout>

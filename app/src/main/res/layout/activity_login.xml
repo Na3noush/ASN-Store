@@ -97,7 +97,7 @@
                 android:textColor="@color/themeColor"
                 android:textSize="17sp"
                 android:textStyle="bold" />
-
+            <!--
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -127,7 +127,7 @@
                     android:background="@color/colorPrimaryDark" />
             </LinearLayout>
 
-            <LinearLayout
+             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -143,7 +143,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:src="@drawable/ic_google_plus" />
-            </LinearLayout>
+            </LinearLayout>-->
         </LinearLayout>
     </ScrollView>
     <View

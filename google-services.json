@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:655350411824:android:55c983beb7e892b3b273f5",
         "android_client_info": {
-          "package_name": "com.example.myshop"
+          "package_name": "com.anx.myshop"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "655350411824-7rtvm0b2gep8kr06rabg2ch9ae69a1p5.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.myshop",
+            "package_name": "com.anx.myshop",
             "certificate_hash": "e7b3610d2b3a7babeeeccb3c634d6aa4ca622f99"
           }
         },

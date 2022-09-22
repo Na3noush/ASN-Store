@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activites.ProductDetailsActivity">
+    tools:context="com.anx.myshop.ui.activites.ProductDetailsActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar_product_details_activity"
@@ -67,7 +67,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/iv_product_detail_image">
 
-                <com.example.myshop.utils.MSPTextViewBold
+                <com.anx.myshop.utils.MSPTextViewBold
                     android:id="@+id/tv_product_details_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -75,7 +75,7 @@
                     android:textSize="@dimen/product_details_title_textSize"
                     tools:text="Product Title" />
 
-                <com.example.myshop.utils.MSPTextView
+                <com.anx.myshop.utils.MSPTextView
                     android:id="@+id/tv_product_details_price"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -84,7 +84,7 @@
                     tools:text="$100" />
             </LinearLayout>
 
-            <com.example.myshop.utils.MSPTextViewBold
+            <com.anx.myshop.utils.MSPTextViewBold
                 android:id="@+id/tv_product_details_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/ll_product_details_title_price" />
 
-            <com.example.myshop.utils.MSPTextView
+            <com.anx.myshop.utils.MSPTextView
                 android:id="@+id/tv_product_details_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -120,7 +120,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_product_details_description">
 
-                <com.example.myshop.utils.MSPTextViewBold
+                <com.anx.myshop.utils.MSPTextViewBold
                     android:id="@+id/tv_product_details_quantity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -129,7 +129,7 @@
                     android:textColor="@color/item_value_text_color"
                     android:textSize="@dimen/product_details_label_textSize" />
 
-                <com.example.myshop.utils.MSPTextView
+                <com.anx.myshop.utils.MSPTextView
                     android:id="@+id/tv_product_details_stock_quantity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -144,7 +144,7 @@
                     tools:text="5" />
             </LinearLayout>
 
-            <com.example.myshop.utils.MSPButton
+            <com.anx.myshop.utils.MSPButton
                 android:id="@+id/btn_add_to_cart"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -167,7 +167,7 @@
                 app:layout_constraintTop_toBottomOf="@id/ll_product_details_quantity"
                 tools:visibility="visible" />
 
-            <com.example.myshop.utils.MSPButton
+            <com.anx.myshop.utils.MSPButton
                 android:id="@+id/btn_go_to_cart"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

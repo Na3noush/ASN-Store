@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activites.AddEditAddressActivity"
+    tools:context="com.anx.myshop.ui.activites.AddEditAddressActivity"
     android:paddingBottom="20dp">
 
     <androidx.appcompat.widget.Toolbar
@@ -58,7 +58,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
-                <com.example.myshop.utils.MSPEditText
+                <com.anx.myshop.utils.MSPEditText
                     android:id="@+id/et_full_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -82,7 +82,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/til_full_name">
 
-                <com.example.myshop.utils.MSPEditText
+                <com.anx.myshop.utils.MSPEditText
                     android:id="@+id/et_phone_number"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -106,7 +106,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/til_phone_number">
 
-                <com.example.myshop.utils.MSPEditText
+                <com.anx.myshop.utils.MSPEditText
                     android:id="@+id/et_address"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -132,7 +132,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/til_address">
 
-                <com.example.myshop.utils.MSPEditText
+                <com.anx.myshop.utils.MSPEditText
                     android:id="@+id/et_zip_code"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -156,7 +156,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/til_zip_code">
 
-                <com.example.myshop.utils.MSPEditText
+                <com.anx.myshop.utils.MSPEditText
                     android:id="@+id/et_additional_note"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -178,7 +178,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/til_additional_note">
 
-                <com.example.myshop.utils.MSPRadioButton
+                <com.anx.myshop.utils.MSPRadioButton
                     android:id="@+id/rb_home"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/add_edit_address_radio_button_height"
@@ -191,7 +191,7 @@
                     android:textColor="@drawable/drawable_gender_tab_text_color_selector"
                     android:textStyle="bold" />
 
-                <com.example.myshop.utils.MSPRadioButton
+                <com.anx.myshop.utils.MSPRadioButton
                     android:id="@+id/rb_office"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/add_edit_address_radio_button_height"
@@ -205,7 +205,7 @@
                     android:textColor="@drawable/drawable_gender_tab_text_color_selector"
                     android:textStyle="bold" />
 
-                <com.example.myshop.utils.MSPRadioButton
+                <com.anx.myshop.utils.MSPRadioButton
                     android:id="@+id/rb_other"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/add_edit_address_radio_button_height"
@@ -233,7 +233,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/rg_type">
 
-                <com.example.myshop.utils.MSPEditText
+                <com.anx.myshop.utils.MSPEditText
                     android:id="@+id/et_other_details"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -243,7 +243,7 @@
                     android:textSize="@dimen/et_textSize" />
             </com.google.android.material.textfield.TextInputLayout>
 
-            <com.example.myshop.utils.MSPButton
+            <com.anx.myshop.utils.MSPButton
                 android:id="@+id/btn_submit_address"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

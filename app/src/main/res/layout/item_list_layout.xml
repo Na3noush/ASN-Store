@@ -40,7 +40,7 @@
         app:layout_constraintStart_toEndOf="@id/ll_item_image"
         app:layout_constraintTop_toTopOf="parent">
 
-        <com.example.myshop.utils.MSPTextViewBold
+        <com.anx.myshop.utils.MSPTextViewBold
             android:id="@+id/tv_item_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
             android:textSize="@dimen/rv_item_name_textSize"
             tools:text="Name" />
 
-        <com.example.myshop.utils.MSPTextView
+        <com.anx.myshop.utils.MSPTextView
             android:id="@+id/tv_item_price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

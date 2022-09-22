@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activites.SoldProductDetailsActivity">
+    tools:context="com.anx.myshop.ui.activites.SoldProductDetailsActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar_sold_product_details_activity"
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.example.myshop.utils.MSPTextView
+            <com.anx.myshop.utils.MSPTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/sold_details_content_marginStartEnd"
@@ -71,7 +71,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <com.example.myshop.utils.MSPTextView
+                    <com.anx.myshop.utils.MSPTextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -79,7 +79,7 @@
                         android:textColor="@color/colorDarkGrey"
                         android:textSize="@dimen/sold_details_label_value_textSize" />
 
-                    <com.example.myshop.utils.MSPTextView
+                    <com.anx.myshop.utils.MSPTextView
                         android:id="@+id/tv_sold_product_details_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <com.example.myshop.utils.MSPTextView
+                    <com.anx.myshop.utils.MSPTextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -102,7 +102,7 @@
                         android:textColor="@color/colorDarkGrey"
                         android:textSize="@dimen/sold_details_label_value_textSize" />
 
-                    <com.example.myshop.utils.MSPTextView
+                    <com.anx.myshop.utils.MSPTextView
                         android:id="@+id/tv_sold_product_details_date"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -114,7 +114,7 @@
 
             </LinearLayout>
 
-            <com.example.myshop.utils.MSPTextView
+            <com.anx.myshop.utils.MSPTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/sold_details_content_marginStartEnd"
@@ -162,7 +162,7 @@
                     android:gravity="center"
                     android:orientation="vertical">
 
-                    <com.example.myshop.utils.MSPTextViewBold
+                    <com.anx.myshop.utils.MSPTextViewBold
                         android:id="@+id/tv_product_item_name"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -170,7 +170,7 @@
                         android:textSize="@dimen/sold_details_lbl_textSize"
                         tools:text="Name" />
 
-                    <com.example.myshop.utils.MSPTextView
+                    <com.anx.myshop.utils.MSPTextView
                         android:id="@+id/tv_product_item_price"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -181,7 +181,7 @@
                         tools:text="$100.00" />
                 </LinearLayout>
 
-                <com.example.myshop.utils.MSPTextView
+                <com.anx.myshop.utils.MSPTextView
                     android:id="@+id/tv_sold_product_quantity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -197,7 +197,7 @@
             </LinearLayout>
 
 
-            <com.example.myshop.utils.MSPTextView
+            <com.anx.myshop.utils.MSPTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/sold_details_content_marginStartEnd"
@@ -220,7 +220,7 @@
                 android:paddingEnd="@dimen/sold_details_content_paddingStartEnd"
                 android:paddingBottom="@dimen/sold_details_content_paddingTopBottom">
 
-                <com.example.myshop.utils.MSPTextView
+                <com.anx.myshop.utils.MSPTextView
                     android:id="@+id/tv_sold_details_address_type"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -231,7 +231,7 @@
                     android:textStyle="bold"
                     tools:text="Home" />
 
-                <com.example.myshop.utils.MSPTextViewBold
+                <com.anx.myshop.utils.MSPTextViewBold
                     android:id="@+id/tv_sold_details_full_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -239,7 +239,7 @@
                     android:textSize="@dimen/item_address_name_textSize"
                     tools:text="Denis Panjuta" />
 
-                <com.example.myshop.utils.MSPTextView
+                <com.anx.myshop.utils.MSPTextView
                     android:id="@+id/tv_sold_details_address"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -248,7 +248,7 @@
                     android:textSize="@dimen/address_details_textSize"
                     tools:text="XYZ" />
 
-                <com.example.myshop.utils.MSPTextView
+                <com.anx.myshop.utils.MSPTextView
                     android:id="@+id/tv_sold_details_additional_note"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -257,7 +257,7 @@
                     android:textSize="@dimen/address_details_textSize"
                     tools:text="XYZ" />
 
-                <com.example.myshop.utils.MSPTextView
+                <com.anx.myshop.utils.MSPTextView
                     android:id="@+id/tv_sold_details_other_details"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -266,7 +266,7 @@
                     android:textSize="@dimen/address_details_textSize"
                     tools:text="XYZ" />
 
-                <com.example.myshop.utils.MSPTextView
+                <com.anx.myshop.utils.MSPTextView
                     android:id="@+id/tv_sold_details_mobile_number"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -276,7 +276,7 @@
                     tools:text="+64 123456789" />
             </LinearLayout>
 
-            <com.example.myshop.utils.MSPTextView
+            <com.anx.myshop.utils.MSPTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/sold_details_content_marginStartEnd"
@@ -301,7 +301,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <com.example.myshop.utils.MSPTextView
+                    <com.anx.myshop.utils.MSPTextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -309,7 +309,7 @@
                         android:textColor="@color/colorDarkGrey"
                         android:textSize="@dimen/sold_details_label_value_textSize" />
 
-                    <com.example.myshop.utils.MSPTextView
+                    <com.anx.myshop.utils.MSPTextView
                         android:id="@+id/tv_sold_product_sub_total"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -324,7 +324,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <com.example.myshop.utils.MSPTextView
+                    <com.anx.myshop.utils.MSPTextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -332,7 +332,7 @@
                         android:textColor="@color/colorDarkGrey"
                         android:textSize="@dimen/sold_details_label_value_textSize" />
 
-                    <com.example.myshop.utils.MSPTextView
+                    <com.anx.myshop.utils.MSPTextView
                         android:id="@+id/tv_sold_product_shipping_charge"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -347,7 +347,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <com.example.myshop.utils.MSPTextViewBold
+                    <com.anx.myshop.utils.MSPTextViewBold
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -355,7 +355,7 @@
                         android:textColor="@color/colorDarkGrey"
                         android:textSize="@dimen/sold_details_label_value_textSize" />
 
-                    <com.example.myshop.utils.MSPTextViewBold
+                    <com.anx.myshop.utils.MSPTextViewBold
                         android:id="@+id/tv_sold_product_total_amount"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
