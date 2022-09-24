@@ -56,7 +56,7 @@
             android:textColor="@color/item_value_text_color"
             android:textSize="@dimen/rv_item_price_textSize"
             android:textStyle="bold"
-            tools:text="$100.00" />
+            tools:text="100.00 EGP" />
     </LinearLayout>
 
     <ImageButton

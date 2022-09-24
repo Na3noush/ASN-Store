@@ -80,7 +80,7 @@
 
     <string name="title_add_product">ADD PRODUCT</string>
     <string name="et_hint_product_title">Product Title</string>
-    <string name="et_hint_product_price">Product Price ($)</string>
+    <string name="et_hint_product_price">Product Price (EGP)</string>
     <string name="et_hint_product_description">Product Description</string>
     <string name="et_hint_product_quantity">Product Quantity</string>
 
@@ -129,7 +129,7 @@
     <string name="hint_full_name">Full name</string>
     <string name="hint_phone_number">Phone number</string>
     <string name="hint_address">Address</string>
-    <string name="hint_zip_code">ZipCode</string>
+    <string name="hint_zip_code">Postal Code</string>
     <string name="hint_additional_note">Additional note</string>
     <string name="hint_other_details">Other details</string>
     <string name="lbl_home">HOME</string>
